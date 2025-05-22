@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "HelloUserWebPart",
+    "id": "fb7eecfb-87fc-4d7e-8118-a0681172ddf5",
+    "version": "1.0.1.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "UserWebpart description"
+      },
+      "longDescription": {
+        "default": "UserWebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "user-webpart Feature",
+        "description": "The feature that activates elements of the user-webpart solution.",
+        "id": "255a9168-aaa0-48fb-b53e-58a6361fc5ee",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/user-webpart.sppkg"
+  }
+}
